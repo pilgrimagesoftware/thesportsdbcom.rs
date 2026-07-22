@@ -1,0 +1,23 @@
+[package]
+name = "thesportsdbcom"
+description = "Rust library for the TheSportsDB API"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/pilgrimagesoftware/thesportsdbcom.rs"
+documentation = "https://docs.rs/thesportsdbcom"
+homepage = "https://github.com/pilgrimagesoftware/thesportsdbcom.rs"
+keywords = ["thesportsdb", "sports", "football", "soccer"]
+categories = ["api-bindings"]
+authors = ["Paul Schifferer <paul@schifferers.net>"]
+exclude = [
+    "*.orig",
+    ".github/*",
+    ".gitignore",
+    ".editorconfig",
+    ".cargo_vcs_info.json",
+]
+
+[dependencies]
